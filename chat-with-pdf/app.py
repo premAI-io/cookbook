@@ -62,18 +62,20 @@ uploaded_files = None
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-if "docs" not in st.session_state:
-    st.session_state.docs = []
-
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-for doc in st.session_state.docs:
-    utils.see_repos(doc)
+
     
 
 # We get the input prompt from user
+
+repositories = dict(
+    ids=[premai_repository_id], 
+    similarity_threshold=0.25, 
+    limit=5
+)
 
 if prompt := st.chat_input("Please write your query"):
     user_content = {"role": "user", "content": prompt}
@@ -88,11 +90,6 @@ if prompt := st.chat_input("Please write your query"):
         while not full_response:
             with st.spinner("Thinking ...."):
                 try:
-                    repositories = dict(
-                        ids=[premai_repository_id], 
-                        similarity_threshold=0.25, 
-                        limit=5
-                    )
                     response = prem_client.chat.completions.create(
                         project_id=premai_project_id,
                         messages=[user_content],
@@ -118,4 +115,3 @@ if prompt := st.chat_input("Please write your query"):
         st.session_state.messages.append(
             {"role": "assistant", "content": full_response}
         )
-        st.session_state.docs.append(response_doc_chunks)
