@@ -1,0 +1,3 @@
+.streamlit/secrets.toml
+chat-with-pdf/__pycache__
+chat-with-pdf/venv
