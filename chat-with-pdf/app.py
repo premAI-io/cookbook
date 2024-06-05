@@ -67,8 +67,6 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 
-    
-
 # We get the input prompt from user
 
 repositories = dict(
