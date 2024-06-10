@@ -1,0 +1,7 @@
+streamlit 
+premai
+langchain
+langchain-community
+BeautifulSoup4
+tiktoken
+transformers
