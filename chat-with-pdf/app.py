@@ -40,7 +40,7 @@ with st.sidebar:
             "the files everytime with each new chat."
         )
         st.warning(
-            "Please note: Max size per article is 20 MB"
+            "Please note: Max size per article/file is 10 MB"
         )
     uploaded_files = st.file_uploader(
         label="Upload PDF files",
