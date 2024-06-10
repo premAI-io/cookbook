@@ -2,7 +2,7 @@
 
 In this recipe, we are going to show you how you can use [LangChain ChatPremAI](https://python.langchain.com/v0.2/docs/integrations/chat/premai/) (prem SDK integration into langchain) to summarize multiple URLs.We also used streamlit to put a nice interface and visualization. 
 
-![Screenshot 2024-06-10 at 5 16 50 PM](https://github.com/premAI-io/cookbook/assets/58508471/dbdaec26-ef69-408c-aab4-965424c8f0b4)
+![Screenshot 2024-06-10 at 5 18 40 PM](https://github.com/premAI-io/cookbook/assets/58508471/b569e685-9a4d-4445-b749-2fcde81755bd)
 
 ### Setting up the project
 
