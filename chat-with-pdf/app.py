@@ -4,9 +4,10 @@ import streamlit as st
 import utils 
 
 # Set all the constants here 
+# Please make sure to change the Project and repository ID to a correct one 
 premai_api_key = st.secrets.premai_api_key
-premai_project_id = 4071
-premai_repository_id = 2100
+premai_project_id = 123456789
+premai_repository_id = 123456789
 prem_client = premai.Prem(api_key=premai_api_key)
 
 # Set the webpage config 
