@@ -1,4 +1,4 @@
-.streamlit/secrets.toml
+chat-with-pdf/.streamlit/secrets.toml
 chat-with-pdf/__pycache__
 chat-with-pdf/venv
 chat-with-pdf/.tempdir/*
