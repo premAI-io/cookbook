@@ -1,7 +1,7 @@
-streamlit 
-premai
-langchain
-langchain-community
-BeautifulSoup4
-tiktoken
-transformers
+streamlit==1.35.0
+premai==0.3.56
+langchain==0.2.3
+langchain-community==0.2.4
+beautifulsoup4==4.12.3
+tiktoken==0.7.0
+transformers==4.41.2
