@@ -5,7 +5,7 @@ a very simple chat with pdf application using Prem AI SDK and Streamlit.
 
 The best part! It's just 100 lines of code, and you don't even require the knowledge of RAG or Retrieval Augmented Generation. The step by step tutorial is available [here](https://docs.premai.io)
 
-![Screenshot 2024-06-10 at 5 27 36 PM](https://github.com/premAI-io/cookbook/assets/58508471/e9b0ad70-5079-4179-bd69-d9660d6b6139)
+<img width="1119" alt="url-summarizer" src="../assets/chat with pdf.jpeg">
 
 ### Setting up the project 
 
