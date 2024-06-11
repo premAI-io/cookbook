@@ -43,8 +43,9 @@ def summarize_component(urls: list[str], client: ChatPremAI):
 st.set_page_config(page_title="url summary and qna", page_icon="💬")
 
 # Set all the settings here 
+# Please set a valid PROJECT ID when running this code 
 premai_api_key = st.secrets.premai_api_key
-premai_project_id = 4071
+premai_project_id = 123456789
 os.environ["PREMAI_API_KEY"] = premai_api_key
 prem_client = ChatPremAI(project_id=premai_project_id)
 
