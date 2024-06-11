@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ### Running the app
 
-Before running the app, please do not forget to add the secrets `premai_api_key ` to secrets.toml.template and remove `.template` from it. To run the app, type the following command:
+Before running the app, please do not forget to add the secrets `premai_api_key ` to secrets.toml.template and remove `.template` from it. Please add the valid `PROJECT_ID` and `REPOSITORY_ID` from the Prem App before running the app. To run the app, type the following command:
 
 ```bash
 streamlit run app.py
