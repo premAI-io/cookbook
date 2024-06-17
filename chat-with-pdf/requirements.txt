@@ -1,2 +1,2 @@
-streamlit
-premai
+streamlit==1.35.0
+premai==0.3.56
