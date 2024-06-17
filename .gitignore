@@ -2,3 +2,7 @@ chat-with-pdf/.streamlit/secrets.toml
 chat-with-pdf/__pycache__
 chat-with-pdf/venv
 chat-with-pdf/.tempdir/*
+
+url-summarizer/.streamlit/secrets.toml
+url-summarizer/__pycache__
+url-summarizer/venv
