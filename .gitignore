@@ -6,3 +6,6 @@ chat-with-pdf/.tempdir/*
 url-summarizer/.streamlit/secrets.toml
 url-summarizer/__pycache__
 url-summarizer/venv
+
+text-2-sql/venv
+text-2-sql/local_cache
