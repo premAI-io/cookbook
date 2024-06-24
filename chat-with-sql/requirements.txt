@@ -1,0 +1,10 @@
+llama-index==0.10.47
+llama-index-cli==0.1.12
+llama-index-core==0.10.47
+llama-index-llms-premai==0.1.7
+llama-index-readers-file==0.1.25
+llama-index-readers-llama-parse==0.1.4
+llama-index-embeddings-premai==0.1.3
+SQLAlchemy==2.0.31
+psycopg2==2.9.9
+streamlit==1.36.0
