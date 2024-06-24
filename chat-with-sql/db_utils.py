@@ -7,6 +7,7 @@ from llama_index.core.llms.llm import LLM
 from llama_index.core.embeddings import BaseEmbedding
 
 
+# ---- Function to fetch all the tables from pg database ----
 def get_all_tables_from_db(db_config: dict) -> Union[list, None]:
     metadata = MetaData()
     username = db_config["username"]
@@ -27,6 +28,7 @@ def get_all_tables_from_db(db_config: dict) -> Union[list, None]:
     return table_names
 
 
+# ---- Function using llama-index to index the SQL entries for semantic search ----
 def setup_index_before_chat(
     db_config: dict, table: str, llm: LLM, embed_model: BaseEmbedding
 ):
