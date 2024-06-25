@@ -1,8 +1,9 @@
 import time
 import streamlit as st
+from llama_index.core import Settings
 from llama_index.llms.premai import PremAI
 from llama_index.embeddings.premai import PremAIEmbeddings
-from db_utils import get_all_tables_from_db, setup_index_before_chat
+from db_utils import get_all_tables_from_db, setup_index
 
 # ---- PremAI configuration ----
 premai_api_key = st.secrets.premai_api_key
@@ -34,6 +35,9 @@ embedding_model = PremAIEmbeddings(
     model_name=embedding_model_name,
 )
 
+Settings.llm = llm
+Settings.embed_model = embedding_model
+
 # ---- Streamlit config to set the page header and the main title ----
 st.set_page_config(page_title="chat with sql", page_icon="🧩")
 st.markdown(
@@ -64,7 +68,11 @@ with st.sidebar:
     if options is None:
         st.error("No table found")
     else:
-        st.success(f"You will be chatting with Table: {options}")
+        use_all_tables = st.checkbox("Use all tables")
+        st.success(
+            f"You will be chatting with Table: {options}" +
+            ("\nIndexing all the tables" if use_all_tables else "")
+        )
 
 # ---- Main chat UI code that will return the response and the SQL used to retrieve ----
 if options is None:
@@ -73,8 +81,8 @@ if options is None:
     )
 
 else:
-    query_engine = setup_index_before_chat(
-        db_config=db_config, table=options, llm=llm, embed_model=embedding_model
+    query_engine = setup_index(
+        db_config=db_config, table=options, use_all=use_all_tables
     )
 
     if "messages" not in st.session_state:
