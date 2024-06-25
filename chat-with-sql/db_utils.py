@@ -3,8 +3,6 @@ from sqlalchemy import MetaData, create_engine
 
 from llama_index.core import SQLDatabase
 from llama_index.core.query_engine import NLSQLTableQueryEngine
-from llama_index.core.llms.llm import LLM
-from llama_index.core.embeddings import BaseEmbedding
 from llama_index.core.indices.struct_store import SQLTableRetrieverQueryEngine
 from llama_index.core.objects import (
     SQLTableNodeMapping,
