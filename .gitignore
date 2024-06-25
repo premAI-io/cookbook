@@ -9,3 +9,8 @@ url-summarizer/venv
 
 text-2-sql/venv
 text-2-sql/local_cache
+
+chat-with-sql/.streamlit/secrets.toml
+chat-with-sql/__pycache__
+chat-with-sql/venv
+chat-with-sql/netflix_titles.csv
