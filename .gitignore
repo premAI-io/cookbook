@@ -14,3 +14,8 @@ chat-with-sql/.streamlit/secrets.toml
 chat-with-sql/__pycache__
 chat-with-sql/venv
 chat-with-sql/netflix_titles.csv
+
+arxiv-ml-qna/.streamlit/secrets.toml
+arxiv-ml-qna/__pycache__
+arxiv-ml-qna/venv
+arxiv-ml-qna/qdrant_storage
