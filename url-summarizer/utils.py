@@ -31,9 +31,9 @@ that will help them. Include the following sub headings
 Helpful Answer:
 """
 
+
 def summarize_url(url: str, llm: ChatPremAI) -> dict:
-    
-    # Step 1: Load the WebBasedLoader and CharacterTextSplitter to load and split documents 
+    # Step 1: Load the WebBasedLoader and CharacterTextSplitter to load and split documents
     loader = WebBaseLoader(url)
     docs = loader.load()
     text_splitter = CharacterTextSplitter.from_tiktoken_encoder(
@@ -49,16 +49,16 @@ def summarize_url(url: str, llm: ChatPremAI) -> dict:
     map_chain = LLMChain(llm=llm, prompt=map_prompt)
     reduce_chain = LLMChain(llm=llm, prompt=reduce_prompt)
 
-    # Step 4: Define `combined_document_chain` which combines all the summarized chunks 
+    # Step 4: Define `combined_document_chain` which combines all the summarized chunks
     combined_documents_chain = StuffDocumentsChain(
         llm_chain=reduce_chain, document_variable_name="docs"
     )
-    
+
     # Step 5: Define `reduce_document_chain`
     reduce_documents_chain = ReduceDocumentsChain(
         combine_documents_chain=combined_documents_chain,
         collapse_documents_chain=combined_documents_chain,
-        token_max=4000
+        token_max=4000,
     )
 
     # Step 6: Define the final map-reduce-chain which combines all of the above and run in one single pipeline
