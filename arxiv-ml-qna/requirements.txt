@@ -1,0 +1,5 @@
+streamlit==1.36.0
+premai==0.3.57 
+datasets==2.20.0 
+dspy-ai==2.4.10
+qdrant-client==1.9.2
