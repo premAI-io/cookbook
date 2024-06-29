@@ -68,9 +68,7 @@ with st.sidebar:
 
 # ---- Main chat UI code that will return the response and the SQL used to retrieve ----
 if options is None:
-    st.error(
-        "Please set up the SQL DB Engine connection properly. No Tables found."
-    )
+    st.error("Please set up the SQL DB Engine connection properly. No Tables found.")
 
 else:
     query_engine = setup_index_before_chat(
