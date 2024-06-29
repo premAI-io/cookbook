@@ -1,9 +1,8 @@
 ## Simple chat with pdf using Prem AI SDK 
 
-In this first cookbook recipe, we are going to show how we can create 
-a very simple chat with pdf application using Prem AI SDK and Streamlit. 
+In this first cookbook recipe, we are going to show how we can create a very simple chat with pdf application using Prem AI SDK and Streamlit. 
 
-The best part! It's just 100 lines of code, and you don't even require the knowledge of RAG or Retrieval Augmented Generation. The step by step tutorial is available [here](https://docs.premai.io)
+The best part! It's just 100 lines of code, and you don't even require the knowledge of RAG or Retrieval Augmented Generation. The step by step tutorial is available [here](https://docs.premai.io/cookbook/chat-with-pdf)
 
 <img width="1119" alt="url-summarizer" src="../assets/chat with pdf.jpeg">
 
