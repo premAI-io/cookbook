@@ -1,8 +1,10 @@
-## Chat with SQL Tables using PremAI and LLamaIndex
+## Chat with SQL Tables using Prem AI and llama-index
 
-In this recipe, we are going to make a simple chat application using [Prem AI llama-index](https://docs.llamaindex.ai/en/stable/examples/llm/premai/) to ask questions in natural language to a table from a database. We also create a simple webapp using streamlit which looks like this:
+In this cookbook recipe, we are going to show how we can index a SQL Table to perform question answering on the table using llama-index and Prem AI. We also Streamlit to provide a nice UI of the overall project. 
 
-<img width="1119" alt="url-summarizer" src="../assets/chat-with-sql.jpeg">
+The step by step tutorial is available [here](https://docs.premai.io/cookbook/chat-with-sql)
+
+<img width="1119" alt="url-summarizer" src="../assets/chat with sql.jpeg">
 
 ### Setting up the project 
 
@@ -23,8 +25,18 @@ pip install -r requirements.txt
 
 ### Running the app
 
-Before running the app, please do not forget to add the secrets `premai_api_key ` to secrets.toml.template and remove `.template` from it. Please add the valid `PROJECT_ID` from the Prem App before running the app. To run the app, type the following command:
+Before running the app, please do not forget to add the following values:
+
+```
+premai_api_key = "xxxx-xxxx-xxxx"
+premai_project_id = xxxx
+username = 'xxxxx'
+password = 'xxxxx'
+database = 'xxxxx'
+```
+
+inside `secrets.toml.template` file and remove `.template` from it. To run the app, type the following command:
 
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
