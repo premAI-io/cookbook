@@ -13,9 +13,6 @@
 
 
 
-
-
-
 | Recipe Name                        | Description                                                                                                                             | Tutorial                                      |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | [Chat with PDF](/chat-with-pdf/)   | Simple chat with PDF using Prem AI SDK and Streamlit. Learn how to create a simple chat with PDF application in just 100 lines of code. | [Link](https://docs.premai.io/cookbook/chat-with-pdf)  |
@@ -28,30 +25,34 @@
 
 We welcome contributions to the Prem AI Cookbook! If you have a recipe or an improvement to share, please follow these guidelines to contribute:
 
-1. **Fork the Repository**: Start by forking the repository to your GitHub account.
+1. Join our [Official Discord Server](https://discord.gg/TZ83cefwNV)
 
-2. **Create a Branch**: Create a new branch for your contribution:
+2. **Fork the Repository**: Start by forking the repository to your GitHub account.
+
+3. **Create a Branch**: Create a new branch for your contribution:
     ```bash
     git checkout -b my-new-recipe
     ```
 
-3. **Make Your Changes**: Implement your recipe or improvement. Please follow the structure and coding standards used in the repository.
+4. **Make Your Changes**: Implement your recipe or improvement. Please follow the structure and coding standards used in the repository.
 
-4. **Update Documentation**: Ensure your recipe includes clear instructions and explanations in the README file of the corresponding directory. Include any necessary images or screenshots in the `assets` directory.
+5. **Update Documentation**: Ensure your recipe includes clear instructions and explanations in the README file of the corresponding directory. Include any necessary images or screenshots in the `assets` directory.
 
-5. **Test Your Recipe**: Verify that your recipe works as expected. If applicable, include a test script or instructions on how to test it.
+6. **Test Your Recipe**: Verify that your recipe works as expected. If applicable, include a test script or instructions on how to test it.
 
-6. **Commit Your Changes**: Commit your changes with a descriptive commit message:
+7. **Commit Your Changes**: Commit your changes with a descriptive commit message:
     ```bash
     git commit -m "Add new recipe for XYZ"
     ```
 
-7. **Push to Your Fork**: Push your changes to your forked repository:
+8. **Push to Your Fork**: Push your changes to your forked repository:
     ```bash
     git push origin my-new-recipe
     ```
 
-8. **Create a Pull Request**: Open a pull request to the main repository. Provide a clear description of your changes and the purpose of your contribution.
+9. **Create a Pull Request**: Open a pull request to the main repository. Provide a clear description of your changes and the purpose of your contribution.
+
+Contributors who are contributing to some good use cases are eligible for extra credits to carry out their experimentation and community contributions for cookbook. Reach out to us on discord if your credits get's exhausted on those cases. 
 
 ## 🗺️ Roadmap
 
