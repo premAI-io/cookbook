@@ -1,13 +1,16 @@
 # Prem AI Cookbook
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 0 0 40%; margin-right: 10px;">
-    <img src="./assets/cookbook_main.png" alt="url-summarizer" width="90%">
-  </div>
-  <div style="flex: 1;">
-    <p style="margin: 0;">We present Prem AI cookbook. The cookbook consists of set of examples and use cases which you can apply with ease using the Prem platform. Additionally, we also show our presence in the popular Generative AI open-source community. Examples in our cookbook also show how we can use <a href="https://python.langchain.com/v0.2/docs/integrations/providers/premai/#chat-completions">Langchain</a>, <a href="https://docs.llamaindex.ai/en/stable/examples/llm/premai/">llama-index</a>, <a href="https://dspy-docs.vercel.app/api/language_model_clients/PremAI">Stanford DSPy</a>, and <a href="https://qdrant.tech/documentation/embeddings/premai/">Qdrant</a> in building different use cases or just swap out your LLM/embedding provider with Prem in just a few lines of code.</p>
-  </div>
-</div>
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="width: 250px; padding: 0; vertical-align: top;">
+      <img src="./assets/cookbook_main.png" alt="url-summarizer" style="width: 100%;">
+    </td>
+    <td style="padding: 0; vertical-align: top;">
+      <p style="margin: 0;">We present Prem AI cookbook. The cookbook consists of a set of examples and use cases which you can apply with ease using the Prem platform. Additionally, we also show our presence in the popular Generative AI open-source community. Examples in our cookbook also show how we can use <a href="https://python.langchain.com/v0.2/docs/integrations/providers/premai/#chat-completions">Langchain</a>, <a href="https://docs.llamaindex.ai/en/stable/examples/llm/premai/">llama-index</a>, <a href="https://dspy-docs.vercel.app/api/language_model_clients/PremAI">Stanford DSPy</a>, and <a href="https://qdrant.tech/documentation/embeddings/premai/">Qdrant</a> in building different use cases or just swap out your LLM/embedding provider with Prem in just a few lines of code.</p>
+    </td>
+  </tr>
+</table>
+
 
 
 
