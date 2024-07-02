@@ -2,7 +2,7 @@
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <td style="width: 250px; padding: 0; vertical-align: top;">
+    <td style="width: 450px; padding: 0; vertical-align: top;">
       <img src="./assets/cookbook_main.png" alt="url-summarizer" style="width: 100%;">
     </td>
     <td style="padding: 0; vertical-align: top;">
