@@ -2,7 +2,7 @@
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <td style="width: 450px; padding: 0; vertical-align: top;">
+    <td style="width: 500px; padding: 0; vertical-align: top;">
       <img src="./assets/cookbook_main.png" alt="url-summarizer" style="width: 100%;">
     </td>
     <td style="padding: 0; vertical-align: top;">
@@ -15,13 +15,14 @@
 
 
 
+
 | Recipe Name                        | Description                                                                                                                             | Tutorial                                      |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| [Chat with PDF](/chat-with-pdf/)   | Simple chat with PDF using Prem AI SDK and Streamlit. Learn how to create a simple chat with PDF application in just 100 lines of code. | [Link](https://docs.premai.io/chat-with-pdf)  |
-| [Chat with SQL](/chat-with-sql/)   | Chat with Postgres SQL Tables using Prem AI and llama-index.                                                                            | [Link](https://docs.premai.io/chat-with-sql)  |
-| [Text-2-SQL](/text-2-sql/)         | Using Prem AI and DSPy to generate SQL from natural text query.                                                                         | [Link](https://docs.premai.io/text-2-sql)     |
-| [URL Summarizer](/url-summarizer/) | URL Summarizer with Langchain and Prem AI.                                                                                              | [Link](https://docs.premai.io/url-summarizer) |
-| [Arxiv ML QnA](/arxiv-ml-qna/)     | ArXiv paper search and QnA using PremAI, DSPy, and Qdrant.                                                                              | [Link](https://docs.premai.io/arxiv-ml-qna)   |
+| [Chat with PDF](/chat-with-pdf/)   | Simple chat with PDF using Prem AI SDK and Streamlit. Learn how to create a simple chat with PDF application in just 100 lines of code. | [Link](https://docs.premai.io/cookbook/chat-with-pdf)  |
+| [Chat with SQL](/chat-with-sql/)   | Chat with Postgres SQL Tables using Prem AI and llama-index.                                                                            | [Link](https://docs.premai.io/cookbook/chat-with-sql)  |
+| [Text-2-SQL](/text-2-sql/)         | Using Prem AI and DSPy to generate SQL from natural text query.                                                                         | [Link](https://docs.premai.io/cookbook/text-2-sql)     |
+| [URL Summarizer](/url-summarizer/) | URL Summarizer with Langchain and Prem AI.                                                                                              | [Link](https://docs.premai.io/cookbook/url-content-summarizer) |
+| [Arxiv ML QnA](/arxiv-ml-qna/)     | ArXiv paper search and QnA using PremAI, DSPy, and Qdrant.                                                                              | [Link](https://docs.premai.io/cookbook/arxiv-ml-qna)   |
 
 ## 🤝 Contributing 
 
